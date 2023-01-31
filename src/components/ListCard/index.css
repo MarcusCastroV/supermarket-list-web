@@ -34,8 +34,9 @@
 
 .list-card-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 4px;
+    color: #7785db;
 }
 .list-card-subtitle {
     font-size: 14px;

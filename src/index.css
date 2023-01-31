@@ -38,7 +38,7 @@ font-size: 16px;
 font-weight: 500;
 }
 
-::-wwebkit-scrollbarr {
+::-webkit-scrollbarr {
   visibility: hidden;
   width: 0px;
 }

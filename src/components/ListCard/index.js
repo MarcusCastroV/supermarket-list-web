@@ -1,13 +1,16 @@
 import "./index.css"
-
-export const ListCard = (props) => {
-    const { item } = props;
-    item.checked = true;
+import { useState } from "react";
+export const ListCard = ({item, onClick}) => {
+    const [checked, setChecked] = useState(false);
+    
     return (
-        <div className="list-card-container">
+        <div className="list-card-container" onClick={() => onClick(item)}>
             <div className="checkbox">
                 <input
-                    
+                    onChange={() => setChecked(!checked)}
+                    checked={checked}
+                    id="checkbox"
+                    type="checkbox"
                 />
                 <label htmlFor="checkbox" />
             </div>
