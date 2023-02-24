@@ -22,11 +22,11 @@ export const HomeScreen = () => {
             <div className="home-screen-content-container">
                 <img className="shopping-bag-image" src="/images/shopping-bag.svg" alt="Shopping-bag"/>
                 <h1 className="home-screen-title">
-                    Sua lista de supermercado masi fácil do que nunca</h1>
+                    Sua lista de supermercado mais fácil do que nunca</h1>
                 <h3 className="home-screen-subtitle">
                     Ajudamos você a organizar sua lista de compras de forma descomplicada.
                 </h3> 
-                <h3 className="home-screen-description">
+                <h3 className="home-screen-subtutle-description">
                     Digite abaixo seu usuário para ter acesso a sua lista de compras:
                 </h3> 
                 <Input onChange={(text) => setUsername(text)} value={username} label="Username" placeholder="Ex: usuário1"/>

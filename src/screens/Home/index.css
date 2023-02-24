@@ -1,3 +1,4 @@
+
 .home-screen-container {
     display: flex;
     width: 100vw;
@@ -20,8 +21,7 @@
 
 .shopping-bag-image {
     width: 220px;
-    height: 220px;
-    margin-bottom: 16px;
+    height: auto;
 }
 
 .home-screen-title {
@@ -33,16 +33,53 @@
 .home-screen-subtitle {
     max-width: 320px;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
-.home-screen-description {
+
+.home-screen-subtitle-description {
     max-width: 452px;
     text-align: left;
     margin-bottom: 16px;
 }
 
 .home-screen-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 452px;
-    margin-top: 16px;
     margin-top: 24px;
+}
+
+@media screen and (max-width: 420px) {
+    .home-screen-content-container {
+        max-width: 320px;
+        max-height: 600px;
+        padding: 12px;
+    }
+
+    .home-screen-button-container {
+        max-width: 300px;
+        margin-top: 12px;
+    }
+
+    .shopping-bag-image {
+        width: 140px;
+        height: auto;
+    }
+
+    .home-screen-subtitle-description {
+        max-width: 300px;
+    }
+
+    .home-screen-subtitle {
+        max-width: 300px;
+
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .home-screen-container {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }
