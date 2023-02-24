@@ -7,6 +7,6 @@
     max-height: 75vh;
     width: 60vw;
     padding: 12px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
