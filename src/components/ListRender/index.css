@@ -7,6 +7,14 @@
     max-height: 75vh;
     width: 60vw;
     padding: 12px;
-    overflow-y: hidden;
     overflow-x: hidden;
+}
+
+.list-render-container::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+
+.list-render-container{
+    scrollbar-width: none;
 }
