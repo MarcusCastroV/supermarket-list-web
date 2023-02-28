@@ -1,62 +1,59 @@
 .list-card-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: 58px;
-    min-height: 58px;
-    padding: 0px 12px;
-    background: linear-gradient(to left ,#e7ffd0, #ffffff);
-    border-radius: 12px;
-    margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 58px;
+  min-height: 58px;
+  padding: 0px 12px;
+  background: linear-gradient(to left, #e7ffd0, #ffffff);
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
 
 .checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    cursor: pointer;
-    margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 12px;
 }
 
-
-
 .list-card-text-container {
-    display: flex;
-    width: 90%;
-    flex-direction: column;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
 }
 
 .list-card-title {
-    font-size: 16px;
-    font-weight: 800;
-    margin-bottom: 4px;
-    color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 4px;
+  color: var(--color-primary);
 }
 .list-card-subtitle {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.arrow-icon-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    width: 10%;
-   cursor: pointer;
+.arrow-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 10%;
+  cursor: pointer;
 }
 
 .arrow-icon {
-    width: 6px;
-    height: 12px;
-    object-fit: contain;
- 
+  width: 6px;
+  height: 12px;
+  object-fit: contain;
 }
-bv{
-    color: #00484d;
+bv {
+  color: #00484d;
 }

@@ -1,89 +1,88 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    height: 94vh;
-    width: 26vw;
-    background-color: #fff;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 94vh;
+  width: 26vw;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 2vh;
 }
 
 .modal-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 .modal-close-button {
-    height: 24px;
-    width: 24px;
-    background-color: transparent;
-    border: none;
-    background-image: url('../../../public/images/close.svg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../../../public/images/close.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .buttons-container {
-    display: flex;
-    flex-direction: column;
-    height: 12vh;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 50vh;
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50vh;
 }
 @media screen and (max-width: 1400px) {
-    .modal-content {
-        width: 35vw;
-    }
+  .modal-content {
+    width: 35vw;
+  }
 }
 @media screen and (max-width: 1060px) {
-    .modal-content {
-        width: 45vw;
-    }
+  .modal-content {
+    width: 45vw;
+  }
 }
 @media screen and (max-width: 830px) {
-    .modal-content {
-        width: 60vw;
-    }
+  .modal-content {
+    width: 60vw;
+  }
 
-    .buttons-container {
-        height: 12vh;
-        margin-top: 54vh;
-    }
+  .buttons-container {
+    height: 12vh;
+    margin-top: 54vh;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    .modal-content {
-        width: 100vw;
-        margin: 2vh;
-    }
+  .modal-content {
+    width: 100vw;
+    margin: 2vh;
+  }
 
-    .buttons-container {
-        height: 12vh;
-        margin-top: 52vh;
-    }
+  .buttons-container {
+    height: 12vh;
+    margin-top: 52vh;
+  }
 }
-

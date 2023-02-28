@@ -1,22 +1,21 @@
 @font-face {
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   src: url(/public/fonts/AvenirNext-Regular.otf);
 }
 @font-face {
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   src: url(/public/fonts/AvenirNext-Bold.otf);
   font-weight: bold;
 }
 @font-face {
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   src: url(/public/fonts/AvenirNext-It.otf);
   font-style: italic;
 }
 
 body {
   margin: 0;
-  font-family:"Avenir Next",
-    sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,16 +32,16 @@ h1 {
   color: black;
 }
 
-h3{
-font-size: 16px;
-font-weight: 500;
+h3 {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 420px) {
-  h1{
+  h1 {
     font-size: 18px;
   }
-  h3{
+  h3 {
     font-size: 12px;
   }
 }

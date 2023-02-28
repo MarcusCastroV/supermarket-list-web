@@ -1,43 +1,39 @@
 .input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 400px;
-    height: 48px;
-    border-radius:8px ;
-    border: 2px solid var(--color-primary);
-    margin-bottom: 16px;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 400px;
+  height: 48px;
+  border-radius: 8px;
+  border: 2px solid var(--color-primary);
+  margin-bottom: 16px;
 }
 
-
-
 .input-label {
-    font-size: 12px;
-    margin: 0px;
-    padding-left: 6px;
-    padding-top: 6px;
-    padding-bottom: 4px;
-    
+  font-size: 12px;
+  margin: 0px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
 
 .input {
-    border: none;
-    margin-left: 6px;
-    font-size: 16px;
-    font-family: "Avenir-Next";
+  border: none;
+  margin-left: 6px;
+  font-size: 16px;
+  font-family: 'Avenir-Next';
 }
-.input:focus{
-    outline: none;
+.input:focus {
+  outline: none;
 }
 @media screen and (max-width: 830px) {
-    .input-container{
-        width: 100%;
-    }
+  .input-container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 420px) {
-    .input-container{
-        max-width: 300px;
-    }
+  .input-container {
+    max-width: 300px;
+  }
 }
