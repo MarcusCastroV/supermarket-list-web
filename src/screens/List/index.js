@@ -11,8 +11,7 @@ export const ListScreen = () => {
 
   const loadListItems = async () => {
     setLoading(true);
-    const result = await getList();
-    console.log({ result });
+    const result = await getList()
     setListData(result);
     setLoading(false);
   };
