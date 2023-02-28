@@ -10,7 +10,7 @@
     height: 42px;
     border: 0px;
     cursor: pointer;
-    border: 1px solid #7785db;
+    border: 1px solid var(--color-primary);
 }
 
 @media screen and (max-width: 420px) {
@@ -20,13 +20,13 @@
 }
 
 .main{
-    background-color: #7785db;
-    color: #f2f4ff;
+    background-color: var(--color-primary);
+    color: #fff;
 }
 
 .outline{
-    background-color: #f2f4ff;
-    color: #7785db;
+    background-color: #fff;
+    color: var(---color-primary);
 }
 
 .button-icon{

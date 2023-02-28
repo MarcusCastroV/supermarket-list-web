@@ -2,7 +2,7 @@
     width: 64px;
     height: 64px;
     border: 6px solid #FFF;
-    border-bottom-color: #7785db;
+    border-bottom-color: var(--color-primary);
     border-radius: 50%;
     display: inline-block;
     box-sizing: border-box;

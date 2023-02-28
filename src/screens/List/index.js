@@ -53,7 +53,7 @@ export const ListScreen = () => {
           <div className="list-screen-title-container">
             <img
               className="logo-image"
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="supermarket-list-logo"
             />
             <h1 className="list-screen-header-title">Lista Supermercado</h1>
