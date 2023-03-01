@@ -2,11 +2,7 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(
-    to left,
-    var(--color-secondary),
-    var(--color-primary)
-  );
+  background: linear-gradient(to right, #346c2f, #d9f397);
   align-items: center;
   justify-content: center;
 }
@@ -40,8 +36,8 @@
 .list-screen-header-title {
   font-size: 32px;
   margin-left: 12px;
-  color: var(--title-color);
 }
+
 .list-screen-header-button-container {
   width: 160px;
   margin-right: 2rem;
@@ -59,6 +55,7 @@
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (max-width: 830px) {
   .list-screen-header-title {
     font-size: 24px;
@@ -70,13 +67,16 @@
     font-size: 14px;
     line-height: 14px;
   }
+
   .logo-image {
     width: 34px;
     height: auto;
   }
+
   .list-screen-content-container {
     width: 72vw;
   }
+
   .list-screen-header-button-container {
     width: 42px;
   }

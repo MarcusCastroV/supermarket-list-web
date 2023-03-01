@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './index.css'
 import { getList, updateItem } from 'services/request'
-import { Button, ListRender, Loader, Modal } from 'components'
+import { Button, ListRender, Loader, Modal, Title } from 'components'
 
 export const ListScreen = () => {
   const [modalVisible, setModalVisible] = useState(false)
@@ -56,7 +56,7 @@ export const ListScreen = () => {
               src="/images/logo.svg"
               alt="supermarket-list-logo"
             />
-            <h1 className="list-screen-header-title">Lista Supermercado</h1>
+            <Title fontSize={32} lineHeight={32} ml={12}>Lista Supermercado</Title>
           </div>
           <div className="list-screen-header-button-container">
             <Button onClick={onClickAddButton}>
