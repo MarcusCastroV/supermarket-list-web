@@ -39,6 +39,7 @@ export const HomeScreen = () => {
           value={username}
           label="Username"
           placeholder="Ex: usuário1"
+          screen="Home"
         />
         <ButtonContainer>
           <Button onClick={onClickContinue}>Continuar</Button>

@@ -1,4 +1,6 @@
-.list-card-container {
+import styled from 'styled-components'
+
+export const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,9 +12,8 @@
   background: linear-gradient(to left, #e7ffd0, #ffffff);
   border-radius: 12px;
   margin-bottom: 24px;
-}
-
-.checkbox {
+`
+export const CheckImage = styled.img`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,38 +23,25 @@
   object-fit: contain;
   cursor: pointer;
   margin-right: 12px;
-}
-
-.list-card-text-container {
+`
+export const TextContainer = styled.div`
   display: flex;
   width: 90%;
   flex-direction: column;
-}
-
-.list-card-title {
-  font-size: 16px;
-  font-weight: 800;
-  margin-bottom: 4px;
-  color: var(--color-primary);
-}
-.list-card-subtitle {
-  font-size: 14px;
-}
-
-.arrow-icon-container {
+`
+export const ArrowIconContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   width: 10%;
   cursor: pointer;
-}
-
-.arrow-icon {
+`
+export const ArrowIcon = styled.img.attrs({
+  src: '/images/arrow.svg',
+  alt: 'arrow-icon'
+})`
   width: 6px;
   height: 12px;
   object-fit: contain;
-}
-bv {
-  color: #00484d;
-}
+`

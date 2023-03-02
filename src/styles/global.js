@@ -4,16 +4,21 @@ export const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: 'Avenir Next';
-    src: url(/public/fonts/AvenirNext-Regular.otf);
+    src: url(/fonts/AvenirNext-Regular.otf);
   }
   @font-face {
     font-family: 'Avenir Next';
-    src: url(/public/fonts/AvenirNext-Bold.otf);
+    src: url(/fonts/AvenirNext-Bold.otf);
     font-weight: bold;
   }
   @font-face {
     font-family: 'Avenir Next';
-    src: url(/public/fonts/AvenirNext-It.otf);
+    src: url(/fonts/AvenirNext-Mediun.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Avenir Next';
+    src: url(/fonts/AvenirNext-It.otf);
     font-style: italic;
   }
 

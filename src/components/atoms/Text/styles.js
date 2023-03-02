@@ -27,3 +27,9 @@ export const Subtitle = styled.h1`
     margin-bottom: ${({ mb }) => mb || 48}px;
   }
 `
+export const SmallText = styled.span`
+  font-size: ${({ fontSize }) => fontSize || 16}px;
+  text-align: ${({ align }) => align || 'center'};
+  margin-bottom: ${({ mb }) => mb || 0}px;
+  font-weight: ${({ fontWeight }) => fontWeight || 500};;
+`

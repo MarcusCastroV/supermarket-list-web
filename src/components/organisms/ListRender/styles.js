@@ -1,4 +1,6 @@
-.list-render-container {
+import styled from 'styled-components'
+
+export const ListRenderContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex-direction: column;
@@ -8,12 +10,8 @@
   width: 60vw;
   padding: 12px;
   overflow-x: hidden;
-}
-
-.list-render-container::-webkit-scrollbar {
+  scrollbar-width: none;
+  ::-webkit-scrollbar {
   visibility: hidden;
 }
-
-.list-render-container {
-  scrollbar-width: none;
-}
+`
