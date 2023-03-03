@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import './index.css'
 import { Button, Input, Title, Subtitle } from 'components'
 import { SAVE_USERNAME_PATH } from 'services/constants'
 import {

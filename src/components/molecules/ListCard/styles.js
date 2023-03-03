@@ -12,6 +12,11 @@ export const CardContainer = styled.div`
   background: linear-gradient(to left, #e7ffd0, #ffffff);
   border-radius: 12px;
   margin-bottom: 24px;
+
+  transition: 0.3s;
+  :hover{
+    background: #e7ffd0;
+  }
 `
 export const CheckImage = styled.img`
   display: flex;
