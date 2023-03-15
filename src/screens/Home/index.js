@@ -24,7 +24,7 @@ export const HomeScreen = () => {
 
   return (
     <ScreenContainer>
-      <ContentContainer>
+      <ContentContainer data-aos="zoom-in">
         <BagImage />
         <Title>Sua lista de supermercado mais fácil do que nunca</Title>
         <Subtitle>

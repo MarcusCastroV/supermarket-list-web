@@ -48,7 +48,7 @@ export const ListScreen = () => {
 
   return (
     <ScreenContainer>
-      <ContentContainer>
+      <ContentContainer data-aos="zoom-in">
         <HeaderContainer>
           <TitleContainer>
             <LogoImage

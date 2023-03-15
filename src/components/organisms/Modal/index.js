@@ -61,7 +61,7 @@ export const Modal = ({ onClose, item }) => {
   }, [item])
   return (
     <ModalBackgroundContainer>
-      <ModalContent>
+      <ModalContent data-aos="fade-left">
         <ModalHeaderContainer>
           <Title>{item ? 'Editar Item' : 'Adicionar novo item'}</Title>
           <ModalCloseButton onClick={onClose} />
